@@ -50,3 +50,46 @@ Observations +=, -=, /=, *=
 Increment ++
 Decrement --
 */
+
+//=============== Remainder %,
+console.log(100%8);
+
+//=============== Observations +=, -=, /=, *=
+
+let z =50;
+
+z = z + 10; // 50 + 10 = 60
+z += 10; // 60 + 10 = 70
+console.log(z);
+
+
+//=========================== Comparision(taqqoslash) ===========================
+/*
+ 
+<, >, ==, ===, <=, >=, !  
+
+*/
+
+console.log("112" < "21"); // true
+
+//=========================== Logical operators ===========================
+// ==================== || (OR)
+
+console.log( true || true );   // true
+console.log( false || true );  // true
+console.log( true || false );  // true
+console.log( false || false ); // false
+
+// ==================== && (AND)
+
+console.log( true && true );   // true
+console.log( false && true );  // false
+console.log( true && false );  // false
+console.log( false && false ); // false
+
+// ==================== !(NOT)
+
+console.log( !true ); // false
+console.log( !0 ); // true
+console.log( !!"non-empty string" ); // true
+console.log( !!null ); // false
