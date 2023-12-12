@@ -1,0 +1,51 @@
+.parent {
+    padding: 20px;
+    border: 1px solid #000;
+    width: 150px;
+    height: 350px;
+}
+
+ul > li {
+    padding: 5px;
+}
+
+#border{
+    border: 1px solid #ff0000;
+    width: 14%;
+    
+
+}
+
+
+#border-none{
+    border: none;
+}
+
+
+.box {
+    width: 250px;
+    height: 150px;
+    border: 1px solid #000000;
+    margin: 20px;
+    overflow: auto;
+    /* white-space: nowrap; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
