@@ -1,0 +1,46 @@
+
+
+
+#button{
+    width: 400px;
+    height: 150px;
+    color: black;
+    font-size: 3rem;
+    background-color: indigo;
+    color:aliceblue;
+}
+
+
+
+.container {
+    /* width: 200px;
+    height: 200px; */
+    border: 1px solid blue;
+    margin: 20px;
+}
+hr{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#table, tr, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    background-color:blue;
+
+}
+
+
+td {
+    padding: 30px;
+}
+
+.highlite {
+    color: rgb(255, 255, 255);
+    background-color: rgb(230, 42, 42);
+}
+
+
