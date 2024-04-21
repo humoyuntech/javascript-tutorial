@@ -18,7 +18,7 @@ const updeteUser = (data) => {
     return students = res;
 };
 
-updeteUser({id: 2, type: "name", value: "Farrux"});
+updeteUser({id: 2, type: "name", value: "Farrux Soipov"});
 updeteUser({id: 2, type: "year", value: 1992});
 
 
@@ -27,7 +27,6 @@ updeteUser({id: 2, type: "year", value: 1992});
 const addUser = (user) => {
     students = [...students, {id: students.length + 1, ...user}];
 };
-
 
 addUser({name: "Webbrain", year: 2019});
 
@@ -39,11 +38,12 @@ const deleteUser = (id) => {
     students = res;
 };
 
-deleteUser(7);
+// deleteUser(7);
 
 
 //====================================Read 
-
+//1======sort qilish
+// ==========1.1
 const sortByYear = () => {
     let res = students.sort((a, b) => b.year - a.year);
     return students = res;
@@ -51,24 +51,33 @@ const sortByYear = () => {
 
 //sortByYear(students);
 
-
+// ==========1.2
 const sortByAlphabet = () => {
     let res = students.sort((a, b) => a.name.localeCompare(b.name));
     return students = res;
 };
 
-sortByAlphabet(students);
+// sortByAlphabet(students);
+
+
+//2============filter qilish
+const getFilter = (key) => {
+    let res = students.filter((value) => {
+       return value.name.toLowerCase().includes(key.toLowerCase())
+    });
+
+    students = res;
+}
+
+getFilter("Shukurov Shohruh")
+
+
+
+
+
+
+
+
 
 
 console.log(students);
-
-
-
-
-
-
-
-
-
-
-
